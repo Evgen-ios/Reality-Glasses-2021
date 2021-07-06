@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A09801126947258007066A0 /* Screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A09801026947258007066A0 /* Screenshot.png */; };
 		7A6AAD732694262E00F9F080 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6AAD722694262E00F9F080 /* AppDelegate.swift */; };
 		7A6AAD752694262E00F9F080 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6AAD742694262E00F9F080 /* ContentView.swift */; };
 		7A6AAD792694262F00F9F080 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A6AAD782694262F00F9F080 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7A09801026947258007066A0 /* Screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot.png; sourceTree = "<group>"; };
 		7A6AAD6F2694262E00F9F080 /* Reality Glasses 2020.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Reality Glasses 2020.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A6AAD722694262E00F9F080 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7A6AAD742694262E00F9F080 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -35,9 +37,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7A09800F26947247007066A0 /* Screenshot */ = {
+			isa = PBXGroup;
+			children = (
+				7A09801026947258007066A0 /* Screenshot.png */,
+			);
+			path = Screenshot;
+			sourceTree = "<group>";
+		};
 		7A6AAD662694262E00F9F080 = {
 			isa = PBXGroup;
 			children = (
+				7A09800F26947247007066A0 /* Screenshot */,
 				7A6AAD712694262E00F9F080 /* Reality Glasses 2020 */,
 				7A6AAD702694262E00F9F080 /* Products */,
 			);
@@ -132,6 +143,7 @@
 				7A6AAD7F2694262F00F9F080 /* LaunchScreen.storyboard in Resources */,
 				7A6AAD7C2694262F00F9F080 /* Preview Assets.xcassets in Resources */,
 				7A6AAD792694262F00F9F080 /* Assets.xcassets in Resources */,
+				7A09801126947258007066A0 /* Screenshot.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,7 +303,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.homework.mda.Reality-Glasses-2020";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.homework.mda.Reality-Glasses-2021";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -312,7 +324,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.homework.mda.Reality-Glasses-2020";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.homework.mda.Reality-Glasses-2021";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
