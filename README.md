@@ -1,5 +1,5 @@
 # Reality Glasses 2021
-### Homework AR App "Reality Glasses 2021" form cource iOS Developer from MDA
+### Homework AR App "Reality Glasses 2021" form cource iOS Developer
 ##### Used Xcode 12.5 and SwiftUI / Realitykit
 ##### For icon used Adobe Photoshop 2020
 
