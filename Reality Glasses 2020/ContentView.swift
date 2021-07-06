@@ -5,6 +5,7 @@
 //  Created by Evgeniy Goncharov on 06.07.2021.
 //
 
+import ARKit
 import SwiftUI
 import RealityKit
 
@@ -17,8 +18,21 @@ struct ContentView : View {
 struct ARViewContainer: UIViewRepresentable {
     
     func makeUIView(context: Context) -> ARView {
-        
+        // Create AR view
         let arView = ARView(frame: .zero)
+        
+        // Check that face tracking configuration is supported
+        guard ARFaceTrackingConfiguration.isSupported else {
+            print(#line, #function, "Sorry, face tracking is not supported by your device")
+            return arView
+        }
+        
+        // Create face traking configuration
+        let configuration = ARFaceTrackingConfiguration()
+        configuration.isLightEstimationEnabled = true
+        
+        // Run face traking session
+        arView.session.run(configuration, options: [])
         
         return arView
         
