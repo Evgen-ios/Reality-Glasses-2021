@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		7A6AAD732694262E00F9F080 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6AAD722694262E00F9F080 /* AppDelegate.swift */; };
 		7A6AAD752694262E00F9F080 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6AAD742694262E00F9F080 /* ContentView.swift */; };
-		7A6AAD772694262E00F9F080 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 7A6AAD762694262E00F9F080 /* Experience.rcproject */; };
 		7A6AAD792694262F00F9F080 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A6AAD782694262F00F9F080 /* Assets.xcassets */; };
 		7A6AAD7C2694262F00F9F080 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A6AAD7B2694262F00F9F080 /* Preview Assets.xcassets */; };
 		7A6AAD7F2694262F00F9F080 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A6AAD7D2694262F00F9F080 /* LaunchScreen.storyboard */; };
@@ -19,7 +18,6 @@
 		7A6AAD6F2694262E00F9F080 /* Reality Glasses 2020.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Reality Glasses 2020.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A6AAD722694262E00F9F080 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7A6AAD742694262E00F9F080 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		7A6AAD762694262E00F9F080 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
 		7A6AAD782694262F00F9F080 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A6AAD7B2694262F00F9F080 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7A6AAD7E2694262F00F9F080 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,7 +56,6 @@
 			children = (
 				7A6AAD722694262E00F9F080 /* AppDelegate.swift */,
 				7A6AAD742694262E00F9F080 /* ContentView.swift */,
-				7A6AAD762694262E00F9F080 /* Experience.rcproject */,
 				7A6AAD782694262F00F9F080 /* Assets.xcassets */,
 				7A6AAD7D2694262F00F9F080 /* LaunchScreen.storyboard */,
 				7A6AAD802694262F00F9F080 /* Info.plist */,
@@ -147,7 +144,6 @@
 			files = (
 				7A6AAD752694262E00F9F080 /* ContentView.swift in Sources */,
 				7A6AAD732694262E00F9F080 /* AppDelegate.swift in Sources */,
-				7A6AAD772694262E00F9F080 /* Experience.rcproject in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
